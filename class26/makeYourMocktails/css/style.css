@@ -14,8 +14,7 @@ body {
   text-align: center;
   background-size: cover;
   padding: 3%;
-  /* border: 2px solid green; */
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
 }
 
@@ -23,6 +22,8 @@ body {
   text-align: center;
   font-size: 4.5rem;
   font-family: 'Mansalva', cursive;
+  padding: 5% 0;
+  margin-bottom: 5%;
 }
 
 #mocktails-dropdown {
@@ -31,6 +32,7 @@ body {
   font-size: 2rem;
   padding: 5px 5px;
   width: 100%;
+  margin-bottom: 5%;
 }
 
 .dropdown-menu {
@@ -64,6 +66,8 @@ body {
 
 .mocktail-name {
   font-size: 3rem;
+  font-weight: bold;
+  padding: 5%;
 }
 
 .mocktail-details-section {
@@ -73,13 +77,17 @@ body {
 
 .recipe-title,
 .ingredients-title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-align: left;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 h4 {
   font-size: 1.5rem;
   text-align: left;
+  line-height: 1.5;
+  font-weight: bold;
 }
 
 .selection-choice {
@@ -87,16 +95,20 @@ h4 {
 }
 
 .mocktail-ingredients {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .mocktail-ingredients li {
   list-style: none;
   text-align: left;
   font-size: 2rem;
+  line-height: 1.5;
 }
 
 .mocktail-recipe {
   font-size: 2rem;
   text-align: justify;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+  line-height: 1.5;
 }
