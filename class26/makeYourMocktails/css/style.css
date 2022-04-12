@@ -1,0 +1,102 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(to top, #fad0c4 , #ffd1ff);
+  text-align: center;
+  background-size: cover;
+  padding: 3%;
+  /* border: 2px solid green; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#main-title {
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: 'Mansalva', cursive;
+}
+
+#mocktails-dropdown {
+  background-color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 5px 5px;
+  width: 100%;
+}
+
+.dropdown-menu {
+  margin-bottom: 20%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+#get-random-button {
+  display: block;
+  margin: 5% auto;
+  padding: 10px 20px;
+  font-size: 2rem;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
+#get-random-button:hover,
+#get-random-button:active {
+  background-color: darkmagenta;
+}
+
+.mocktail-image {
+  width: 100%;
+  max-width: 400px;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.mocktail-name {
+  font-size: 3rem;
+}
+
+.mocktail-details-section {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.recipe-title,
+.ingredients-title {
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+h4 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.selection-choice {
+  text-align: center;
+}
+
+.mocktail-ingredients {
+  margin-bottom: 10%;
+}
+
+.mocktail-ingredients li {
+  list-style: none;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.mocktail-recipe {
+  font-size: 2rem;
+  text-align: justify;
+}
