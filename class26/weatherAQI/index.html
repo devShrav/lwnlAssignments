@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather AQI</title>
+    <meta
+      name="description"
+      content="Gets the local weather and Air Quality Index"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WeatherBoi</h1>
+    </header>
+    <main>
+      <form>
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="Enter City Name"
+        />
+      <p id="error"></p>
+        <button id="cityWeather">Get The City's Weather</button>
+      </form>
+      <p>Check the Weather and Air Quality Index In Your Area</p>
+      <button id="localWeather">Get Local Weather!</button>
+      <div class="regionContainer">
+        <h2>Region:</h2>
+        <h2 id="region"></h2>
+      </div>
+      <div class="currentContainer">
+        <h2>Current temperature:</h2>
+        <h2 id="current"></h2>
+      </div>
+      <div class="maxContainer">
+        <h2>Max:</h2>
+        <h2 id="max"></h2>
+      </div>
+      <div class="minContainer">
+        <h2>Min:</h2>
+        <h2 id="min"></h2>
+      </div>
+      <div class="aqiContainer">
+        <h2>AQI:</h2>
+        <h2 id="aqi"></h2>
+      </div>
+      <div class="humidityContainer">
+        <h2>Humidity:</h2>
+        <h2 id="humidity"></h2>
+      </div>
+      <div class="descriptionContainer">
+        <h2>Description:</h2>
+        <h2 id="main"></h2>
+        <h2 id="description"></h2>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

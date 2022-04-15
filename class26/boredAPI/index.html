@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Do Something!</title>
+    <meta
+      name="description"
+      content="Activities to do when we have free time"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Let's Do Something</h1>
+    </header>
+    <main>
+      <div class="inputContainer">
+        <div class="choiceContainer">
+          <h2>Choose an Activity Type:</h2>
+          <select name="activities" id="activities">
+            ["education", "recreational", "social", "diy", "charity", "cooking",
+            "relaxation", "music", "busywork"]
+            <option value="recreational" selected>Recreational</option>
+            <option value="social">Social</option>
+            <option value="diy">DIY</option>
+            <option value="charity">Charity</option>
+            <option value="cooking">Cooking</option>
+            <option value="relaxation">Relaxation</option>
+            <option value="music">Music</option>
+            <option value="busywork">Busywork</option>
+          </select>
+          <a href="#" class="button" id="selectActivity">Search Activity</a>
+        </div>
+        <div class="randomContainer">
+          <h2>Get a Random Activity:</h2>
+          <a href="#" class="button" id="randomActivity">Random Activity</a>
+        </div>
+      </div>
+      <div class="displayContainer hidden">
+        <h3 id="activity"></h3>
+        <h3 id="type"></h3>
+        <h3 id="participants"></h3>
+        <h3 id="price"></h3>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

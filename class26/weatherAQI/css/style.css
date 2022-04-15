@@ -1,0 +1,105 @@
+*,
+*::before,
+*.after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+}
+
+header {
+  height: 15%;
+  margin: 0 auto;
+  padding: 5%;
+  border: 2px solid green;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+main {
+  border: 2px solid orange;
+  height: 70%;
+  padding: 5%;
+}
+
+form {
+  width: 100%;
+  border: 2px solid pink;
+  margin-bottom: 5%;
+}
+
+#city {
+  width: 100%;
+  font-size: 2rem;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: aqua;
+}
+button:hover {
+  background-color: lightseagreen;
+}
+
+#cityWeather {
+  display: block;
+  margin: 2% auto;
+}
+
+#error {
+  color: red;
+  font-size: 1.5rem;
+}
+
+
+footer {
+  height: 15%;
+  border: 2px solid olivedrab;
+}
+
+/* AQI colors */
+.good {
+  color: white;
+  background-color: green;
+}
+
+.moderate {
+  color: black;
+  background-color: yellow;
+}
+
+.sensitive {
+  color: black;
+  background-color: orange;
+}
+
+.unhealthy {
+  color: white;
+  background-color: red;
+}
+
+.veryUnheathy {
+  color: white;
+  background-color: blueviolet;
+}
+
+.hazardous {
+  color: white;
+  background-color: darkred;
+}
+
+/* End of AQI colors */
